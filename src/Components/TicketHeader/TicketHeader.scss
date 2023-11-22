@@ -1,0 +1,45 @@
+.tktheader{
+    border: 1px solid rgb(177, 177, 177);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+    .left{
+        // border: 1px solid red;
+        display: flex;
+        align-items: center;
+        // text-align: center;
+        gap: 5px;
+        justify-content: space-between;
+        .icon{
+            // border: 1px solid red;
+            display: flex;
+          
+        }
+        .title{
+            // border: 1px solid red;
+            text-align: center;
+        }
+        .count{
+            // border: 1px solid red;
+        }
+        
+    }
+    .right{
+        // border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .plus{
+            // border: 1px solid red;
+            display: flex;
+            // justify-content: center;align-items: center;
+        }
+        .dots{
+            display: flex;
+            // border: 1px solid red;
+        }
+    }
+}

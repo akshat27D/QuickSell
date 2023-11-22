@@ -1,0 +1,39 @@
+.home{
+    // border: 1px solid red;
+    // height: 100vh;//comment this height after completing the project
+    .navbar{
+        width: 100%;
+     
+        background-color: whitesmoke;
+        // border: 1px solid red;
+        display: flex;
+        // justify-content: center;
+        font-size: 1.05rem;
+        align-items: center;
+        padding: 20px;
+        .cont{
+            display: flex;
+        }
+       
+    }
+    .main{
+    //  background-color: gray;
+        display: flex;
+        gap: 30px;
+        padding: 5px;
+        .same{
+            flex: 1;
+            display: flex;flex-direction: column;
+            gap: 10px;
+        }
+        
+    }
+}
+@media screen and (max-width:810px){
+    .home{
+        .main{
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}

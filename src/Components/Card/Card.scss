@@ -1,0 +1,22 @@
+.card{
+    // border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey;
+    padding: 5px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    .cam{
+        color: grey;
+
+    }
+    .tile{
+
+    }
+    .feature{
+        color: grey;
+
+    }
+}
